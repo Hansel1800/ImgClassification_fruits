@@ -1,0 +1,128 @@
+/* Main container styles */
+.main {
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Background and general styles */
+.stApp {
+    background-color: #cee2f7;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Card and container styles */
+.chart-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+/* Header styles */
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.header-title {
+    color: #2c3e50;
+    font-size: 1.3rem;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: -10px;
+}
+
+/* Sidebar styles */
+.sidebar-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sidebar-title {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+.stButton button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.stButton button:hover {
+    background-color: #2980b9;
+}
+
+/* Metric card styles */
+.metric-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px 0;
+    font-size: 0.9rem; /* Reduced font size to 0.9rem */
+}
+
+/* Target the value of st.metric components specifically */
+.metric-card [data-testid="stMetricValue"] {
+    font-size: 0.7rem !important; /* Reduced font size to 0.7rem with !important */
+}
+
+/* Progress bar styles */
+.progress-container {
+    margin: 20px 0;
+}
+
+/* Image upload area styles */
+.upload-area {
+    border: 2px dashed #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Result section styles */
+.result-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+/* Chart container styles */
+.chart-wrapper {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main {
+        padding: 1rem;
+    }
+    
+    .header-title {
+        font-size: 1.5rem;
+    }
+    
+    .chart-container {
+        padding: 15px;
+    }
+} 
