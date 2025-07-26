@@ -1,14 +1,5 @@
 # Fruit Condition Classification System
 
-![Python](https://img.shields.io/badge/python-3.7%2B-blue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.8%2B-orange)
-![Streamlit](https://img.shields.io/badge/Streamlit-WebApp-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Issues](https://img.shields.io/github/issues/<your-username>/<your-repo>)
-![Stars](https://img.shields.io/github/stars/<your-username>/<your-repo>?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/<your-username>/<your-repo>)
-
-<!-- Replace <your-username> and <your-repo> with your actual GitHub username and repository name -->
 
 ## 1. Project Objective
 
@@ -107,7 +98,6 @@ streamlit run app.py
 ## 7. User Interface
 
 - **Web app (Streamlit):** Upload images, get classification results, view training charts, dataset statistics.
-- **No Flask/FastAPI used.**
 - **Modern, intuitive, drag-and-drop support.**
 
 ## 8. Future Directions
@@ -117,7 +107,8 @@ streamlit run app.py
 - Deploy a REST API for mobile app integration.
 - Optimize prediction speed, support batch prediction.
 - Add more metrics: precision, recall, F1-score, confusion matrix.
+- Apply OpenCV for real-time fruit condition detection (real-time problem).
+- Build and expand a comprehensive fruit image database (database) for more fruit types and diverse conditions.
+-
 
----
 
-You can fill in the actual accuracy, F1, and confusion matrix after training. If you need more details or an extended English version, just let me know! 
