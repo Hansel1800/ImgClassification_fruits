@@ -109,6 +109,6 @@ streamlit run app.py
 - Add more metrics: precision, recall, F1-score, confusion matrix.
 - Apply OpenCV for real-time fruit condition detection (real-time problem).
 - Build and expand a comprehensive fruit image database (database) for more fruit types and diverse conditions.
--
+
 
 
